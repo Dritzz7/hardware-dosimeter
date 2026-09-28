@@ -1,0 +1,11 @@
+(version 1)
+# S03 PROVISIONAL Spectra two-layer process. No vendor confirmation yet.
+# No exceptions for ADXL345: its original 0.250mm gap remains a visible blocker.
+(rule "Spectra no micro blind or buried vias"
+  (constraint disallow micro_via blind_via buried_via))
+(rule "Spectra plane spacing"
+  (condition "A.Type == 'Zone'")
+  (constraint clearance (min 0.508mm)))
+(rule "Spectra thermal relief"
+  (constraint thermal_relief_gap (min 0.254mm))
+  (constraint thermal_spoke_width (opt 0.30mm)))

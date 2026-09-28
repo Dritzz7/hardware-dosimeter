@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ta_vibration_symbols") (type "KiCad") (uri "${KIPRJMOD}/../libraries/ta_vibration_symbols.kicad_sym") (options "") (descr ""))
+
+ (lib (name "ta_power_modules") (type "KiCad") (uri "${KIPRJMOD}/../libraries/ta_power_modules.kicad_sym") (options "") (descr "Provisional power modules for K15"))
+
+(lib (name "hav_parts") (type "KiCad") (uri "${KIPRJMOD}/../libraries/hav_parts.kicad_sym") (options "") (descr "HAV selected component variants"))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ta_vibration_footprints") (type "KiCad") (uri "${KIPRJMOD}/../libraries/ta_vibration_footprints.pretty") (options "") (descr ""))
+)

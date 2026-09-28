@@ -1,0 +1,441 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "07adc950-1784-492b-aa8a-c1ce3ad80741")
+	(paper "A4")
+	(title_block
+		(title "HAV Node - Vibration Dosimeter")
+		(date "2026-09-28")
+		(rev "A-CAM-REVIEW")
+		(company "STEI ITB")
+		(comment 1 "STATUS: CAM REVIEW - NOT FOR PRODUCTION")
+		(comment 2 "Requirements baseline: B100 and B200")
+		(comment 3 "System: Hand-Arm Vibration Node")
+		(comment 4 "3200 Hz, ±16 g, BLE peripheral")
+	)
+	(lib_symbols)
+	(text "K-16.1 | SPI 4-wire + interrupt melalui pin sheet dan lima wire terpisah."
+		(exclude_from_sim no)
+		(at 30.48 137.16 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "298e39a0-70a0-400b-b903-7671a937543d")
+	)
+	(text "SCK GPIO18 -> R4 -> U2.14; MOSI GPIO23 -> R5 -> U2.13\nMISO U2.12 -> GPIO19; CS GPIO25 -> R6 -> U2.7\nINT1 U2.8 -> GPIO35; INT2 hanya ke TP11 pada sheet sensor."
+		(exclude_from_sim no)
+		(at 30.48 147.32 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left top)
+		)
+		(uuid "4c1ff0ce-5c7a-4f28-b65d-534e0c6cc6ca")
+	)
+	(text "3V3_SYS, VBAT_SENSE, HAV_LED_R/G/B memakai label global.\nGND memakai simbol power global; tidak perlu wire duplikat pada root.\nERC/DRC 2026-09-28: PASS; persetujuan CAM vendor masih wajib."
+		(exclude_from_sim no)
+		(at 30.48 172.72 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left top)
+		)
+		(uuid "c8bb29d2-d97b-489b-ac06-591b6b657779")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7136e0-2f17-48df-b032-2129d90b9095")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b370581-2e75-407c-b6f3-2da4ba7f6a74")
+	)
+	(wire
+		(pts
+			(xy 106.68 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b337a099-67a3-43e7-91cd-9a7af246a352")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56e4b8d-d4fd-4451-9c7b-392ef38e6343")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff48e608-7b76-41bb-9273-c1233df54a26")
+	)
+	(label "SPI_ADXL_MISO"
+		(at 124.46 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06a8afb0-f5da-4bdb-b0b2-8eab2f797c37")
+	)
+	(label "ADXL_CS"
+		(at 124.46 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54b16b6c-b8d1-4eba-9db7-a45a54c74972")
+	)
+	(label "SPI_ADXL_MOSI"
+		(at 124.46 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b701c22e-7d42-4afa-8925-004c27c29bd1")
+	)
+	(label "ADXL_INT1"
+		(at 124.46 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5834451-bdf1-427f-bc99-e3953561a7c3")
+	)
+	(label "SPI_ADXL_SCK"
+		(at 124.46 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc973cc4-45d7-408e-b21d-7546f84413c7")
+	)
+	(sheet
+		(at 30.48 60.96)
+		(size 76.2 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "42db4043-6cd4-44e3-bdbb-2270135f0d0f")
+		(property "Sheetname" "HAV_ESP32_PROGRAMMING"
+			(at 30.48 58.42 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hav_esp32_programming.kicad_sch"
+			(at 30.48 124.46 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_ADXL_SCK" output
+			(at 106.68 71.12 0)
+			(uuid "be92978c-10ef-4bcc-af94-2c6a706fff2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_ADXL_MOSI" output
+			(at 106.68 81.28 0)
+			(uuid "0dea03c5-9189-49e1-9125-b23d491363c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_ADXL_MISO" input
+			(at 106.68 91.44 0)
+			(uuid "7c31265c-8bf2-4ebc-be1c-19e44a1551f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADXL_CS" output
+			(at 106.68 101.6 0)
+			(uuid "e06cdb15-33cf-4133-9820-16dcb37799bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADXL_INT1" input
+			(at 106.68 111.76 0)
+			(uuid "7a8025d6-096f-4197-83c6-347ba51d02ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "hav_node"
+				(path "/07adc950-1784-492b-aa8a-c1ce3ad80741"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 76.2 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5cb9b3a0-36e6-498f-ae5f-aec925442700")
+		(property "Sheetname" "HAV_CONNECTORS_TESTPOINTS"
+			(at 177.8 22.86 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hav_connectors_testpoints.kicad_sch"
+			(at 177.8 45.72 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hav_node"
+				(path "/07adc950-1784-492b-aa8a-c1ce3ad80741"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 60.96)
+		(size 76.2 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8b3deb2b-3fe1-443c-8c50-a1c182eebce7")
+		(property "Sheetname" "HAV_ADXL345"
+			(at 177.8 58.42 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hav_adxl345.kicad_sch"
+			(at 177.8 124.46 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_ADXL_SCK" input
+			(at 177.8 71.12 180)
+			(uuid "a8b15b27-0c01-4ff7-96cb-8c5a8563e069")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_ADXL_MOSI" input
+			(at 177.8 81.28 180)
+			(uuid "bf90b0d2-7127-435f-98bb-679561e799e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_ADXL_MISO" output
+			(at 177.8 91.44 180)
+			(uuid "a1f031f1-a38b-4409-bba5-7170ee72b3e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADXL_CS" input
+			(at 177.8 101.6 180)
+			(uuid "6f7013ee-83fe-4919-bc01-270c6014c5f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADXL_INT1" output
+			(at 177.8 111.76 180)
+			(uuid "c506fe37-4f6d-4d97-abe4-817a914ff603")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "hav_node"
+				(path "/07adc950-1784-492b-aa8a-c1ce3ad80741"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 25.4)
+		(size 76.2 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c69bb354-aea1-449b-86c0-19c9fbf9e5ce")
+		(property "Sheetname" "HAV_POWER"
+			(at 30.48 22.86 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hav_power.kicad_sch"
+			(at 30.48 45.72 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hav_node"
+				(path "/07adc950-1784-492b-aa8a-c1ce3ad80741"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
