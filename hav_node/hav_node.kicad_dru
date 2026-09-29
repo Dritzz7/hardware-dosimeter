@@ -1,6 +1,7 @@
 (version 1)
 # S03 PROVISIONAL Spectra two-layer process. No vendor confirmation yet.
-# No exceptions for ADXL345: its original 0.250mm gap remains a visible blocker.
+# No ADXL345 exceptions: selected CAM candidate has 0.270mm copper gap.
+# Its 0.0668mm nominal mask dam still needs vendor acceptance before production.
 (rule "Spectra no micro blind or buried vias"
   (constraint disallow micro_via blind_via buried_via))
 (rule "Spectra plane spacing"

@@ -2315,25 +2315,25 @@
 		(fields_autoplaced yes)
 		(uuid "674eb0a9-0ac4-4652-86ae-5635729de6ee")
 		(property "Reference" "C5"
-			(at 78.74 139.6999 0)
+			(at 71.12 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 78.74 142.2399 0)
+			(at 71.12 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (hide yes)
@@ -2854,7 +2854,7 @@
 		(fields_autoplaced yes)
 		(uuid "24528019-01bc-4d66-b044-f5f603811894")
 		(property "Reference" "R16"
-			(at 201.930100 132.080000 0)
+			(at 198.12 127.0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2865,7 +2865,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 199.390100 132.080000 0)
+			(at 200.66 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
