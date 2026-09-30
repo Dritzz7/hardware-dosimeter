@@ -5,10 +5,10 @@
 	(uuid "e804af1e-0002-43bd-978e-3389ae82a3dc")
 	(paper "A4")
 	(title_block
-		(title "HAV POWER - K15")
-		(date "2026-09-08")
-		(rev "A0-K15-DRAFT")
-		(comment 1 "PROVISIONAL - NOT FOR FABRICATION")
+		(title "HAV POWER")
+		(date "2026-09-30")
+		(rev "A-CAM-REVIEW")
+		
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1458,7 +1458,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "K-15 | CATU DAYA HAV - LiPo 2S 1500 mAh"
+	(text "CATU DAYA HAV - LiPo 2S"
 		(exclude_from_sim no)
 		(at 30.48 25.4 0)
 		(effects
@@ -1469,7 +1469,7 @@
 		)
 		(uuid "0abb0e1c-21da-4a53-81c5-d1203fb3377b")
 	)
-	(text "K-15.8 | PEMBACAAN BATERAI"
+	(text "PEMBACAAN BATERAI"
 		(exclude_from_sim no)
 		(at 30.48 119.38 0)
 		(effects
@@ -1491,7 +1491,7 @@
 		)
 		(uuid "a2c979ce-2412-4f22-8c61-90b482148e76")
 	)
-	(text "OPEN: MPN, konektor/polaritas, BMS dan charger 2S.\nPengisian eksternal: perangkat OFF; TP4056 tidak untuk 2S.\nF1 bukan pengganti BMS. 7.0 V belum menjadi cutoff final.\nREQ-PWR-01 >=8 jam; REQ-MEC-01/02 <=60x40x25 mm / 50 g."
+	(text "PACK 2S BERPROTEKSI; CHARGING EKSTERNAL SAAT OFF.\nF1 BUKAN BMS; TP4056 TIDAK UNTUK 2S."
 		(exclude_from_sim no)
 		(at 30.48 182.88 0)
 		(effects
@@ -1502,17 +1502,7 @@
 		)
 		(uuid "c92b31c4-6d32-435a-8c0a-a2d5c5add6fe")
 	)
-	(text "DRAFT / PROVISIONAL - Belum untuk produksi PCB"
-		(exclude_from_sim no)
-		(at 30.48 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "fbbfbd0b-cb0f-4750-a23b-f68b0efcb5dc")
-	)
+	
 	(junction
 		(at 124.46 60.96)
 		(diameter 0)

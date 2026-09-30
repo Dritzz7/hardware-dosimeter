@@ -984,7 +984,7 @@
 			(embedded_fonts no)
 		)
 )
-	(text "K-16.2 | TEST POINT SENSOR - pad PCB, bukan konektor tambahan"
+	(text "TEST POINT SENSOR"
 		(exclude_from_sim no)
 		(at 30.48 22.86 0)
 		(effects

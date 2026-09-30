@@ -1732,7 +1732,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "K-16.2 | TEST POINT PROGRAMMING"
+	(text "TEST POINT PROGRAMMING"
 		(exclude_from_sim no)
 		(at 30.48 162.56 0)
 		(effects

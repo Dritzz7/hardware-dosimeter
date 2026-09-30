@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "HAV - KY016 BATTERY INDICATOR")
-		(date "2026-09-08")
-		(rev "A0-RGB-DRAFT")
-		(comment 1 "PROVISIONAL - NOT FOR FABRICATION")
+		(date "2026-09-30")
+		(rev "A-CAM-REVIEW")
+		
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -483,7 +483,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Modul eksternal lewat J3, dikendalikan ESP32"
+	(text "KY-016 EKSTERNAL - J3"
 		(exclude_from_sim no)
 		(at 30.48 35.56 0)
 		(effects

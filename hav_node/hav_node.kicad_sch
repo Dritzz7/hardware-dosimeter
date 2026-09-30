@@ -6,48 +6,18 @@
 	(paper "A4")
 	(title_block
 		(title "HAV Node - Vibration Dosimeter")
-		(date "2026-09-28")
+		(date "2026-09-30")
 		(rev "A-CAM-REVIEW")
 		(company "STEI ITB")
 		(comment 1 "STATUS: CAM REVIEW - NOT FOR PRODUCTION")
-		(comment 2 "Requirements baseline: B100 and B200")
-		(comment 3 "System: Hand-Arm Vibration Node")
-		(comment 4 "3200 Hz, ±16 g, BLE peripheral")
+		
+		
+		
 	)
 	(lib_symbols)
-	(text "K-16.1 | SPI 4-wire + interrupt melalui pin sheet dan lima wire terpisah."
-		(exclude_from_sim no)
-		(at 30.48 137.16 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left top)
-		)
-		(uuid "298e39a0-70a0-400b-b903-7671a937543d")
-	)
-	(text "SCK GPIO18 -> R4 -> U2.14; MOSI GPIO23 -> R5 -> U2.13\nMISO U2.12 -> GPIO19; CS GPIO25 -> R6 -> U2.7\nINT1 U2.8 -> GPIO35; INT2 hanya ke TP11 pada sheet sensor."
-		(exclude_from_sim no)
-		(at 30.48 147.32 0)
-		(effects
-			(font
-				(size 1.3 1.3)
-			)
-			(justify left top)
-		)
-		(uuid "4c1ff0ce-5c7a-4f28-b65d-534e0c6cc6ca")
-	)
-	(text "3V3_SYS, VBAT_SENSE, HAV_LED_R/G/B memakai label global.\nGND memakai simbol power global; tidak perlu wire duplikat pada root.\nERC/DRC 2026-09-28: PASS; persetujuan CAM vendor masih wajib."
-		(exclude_from_sim no)
-		(at 30.48 172.72 0)
-		(effects
-			(font
-				(size 1.3 1.3)
-			)
-			(justify left top)
-		)
-		(uuid "c8bb29d2-d97b-489b-ac06-591b6b657779")
-	)
+	
+	
+	
 	(wire
 		(pts
 			(xy 106.68 101.6) (xy 177.8 101.6)
