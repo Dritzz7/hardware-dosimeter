@@ -1,0 +1,1022 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ec632bfc-407b-490c-8123-c9099556d472")
+	(paper "A4")
+	(title_block
+		(title "MAIN GPS - GY-NEO6MV2 UART")
+		(date "2026-10-04")
+		(rev "A0-MAIN-DRAFT")
+		(comment 1 "DRAFT - NOT FOR FABRICATION")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	
+(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+)
+
+	(text "GY-NEO6MV2 | EasyWare EP000267 | board eksternal"
+		(exclude_from_sim no)
+		(at 22.86 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6f9dff75-6327-43ac-83ab-190b5c903312")
+	)
+	(text "J5: konektor PCB ke modul GPS"
+		(exclude_from_sim no)
+		(at 144.78 58.42 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left top)
+		)
+		(uuid "7211aebc-c5b6-4aac-912f-907761ae5615")
+	)
+	(text "RX modul GPS <- TX ESP32 GPIO17"
+		(exclude_from_sim no)
+		(at 30.48 116.84 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "a0adb604-3800-4791-9094-79273ccd24fb")
+	)
+	(text "PPS opsional: TP13 saja; tidak pada J5"
+		(exclude_from_sim no)
+		(at 30.48 152.4 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "b58e1080-90b7-43c1-aaea-3f766c098a47")
+	)
+	(text "W-03 | MAIN GPS - GY-NEO6MV2"
+		(exclude_from_sim no)
+		(at 22.86 22.86 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "e78dfaaa-eb74-49a4-ab7a-6b7718352267")
+	)
+	(text "TX modul GPS -> RX ESP32 GPIO16"
+		(exclude_from_sim no)
+		(at 30.48 81.28 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "e81630e2-9905-48ad-acf4-571b44fe572f")
+	)
+	(wire
+		(pts
+			(xy 30.48 142.24) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400f150f-5a3a-499a-92e8-30699ad57917")
+	)
+	(wire
+		(pts
+			(xy 30.48 106.68) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499215cf-36af-4465-a9bb-5bc211f95b26")
+	)
+	(wire
+		(pts
+			(xy 30.48 71.12) (xy 88.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5570959b-463b-4899-8bd0-137972715d48")
+	)
+	(hierarchical_label "GPS_TXD"
+		(shape output)
+		(at 30.48 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "118a9478-264b-497a-86f2-63a7791c7337")
+	)
+	(hierarchical_label "GPS_RXD"
+		(shape input)
+		(at 30.48 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3428acd1-fda8-4cae-9fca-2660bcd9e04e")
+	)
+	(hierarchical_label "GPS_PPS"
+		(shape output)
+		(at 30.48 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6758918a-de0c-44f2-b8e5-a68385af1d7b")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "9eaa8ce8-b15c-4fad-b32b-53b021658112")
+		(property "Reference" "TP12"
+			(at 93.98 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPS_RXD"
+			(at 93.98 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 88.9 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty"
+			(at 88.9 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "Description" ""
+			(at 88.9 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "MPN" "N/A - PCB copper feature"
+			(at 88.9 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Status" "FROZEN PCB feature"
+			(at 88.9 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d401f20c-9cb4-4327-9299-1ac9e4420667")
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245/ee430f4b-49da-4d3b-b3f9-5e82a790596c"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	
+(property "Supplier_URL" "N/A - not purchased" (at 88.9 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "SMD copper pad D1.5mm" (at 88.9 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 88.9 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Bukan komponen beli atau item pick-and-place." (at 88.9 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "afe59573-8e53-4ce1-bfde-67da40bb47fb")
+		(property "Reference" "TP13"
+			(at 93.98 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPS_PPS"
+			(at 93.98 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 88.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty"
+			(at 88.9 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "Description" ""
+			(at 88.9 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "MPN" "N/A - PCB copper feature"
+			(at 88.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Status" "FROZEN PCB feature"
+			(at 88.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "283cfc07-2b9e-4b84-a23d-e1fc54ae2999")
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245/ee430f4b-49da-4d3b-b3f9-5e82a790596c"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	
+(property "Supplier_URL" "N/A - not purchased" (at 88.9 142.24 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "SMD copper pad D1.5mm" (at 88.9 142.24 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 88.9 142.24 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Bukan komponen beli atau item pick-and-place." (at 88.9 142.24 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "df48face-1ade-4509-8cb7-7d7a3350d2ff")
+		(property "Reference" "TP11"
+			(at 93.98 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPS_TXD"
+			(at 93.98 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 88.9 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty"
+			(at 88.9 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "Description" ""
+			(at 88.9 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "MPN" "N/A - PCB copper feature"
+			(at 88.9 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Status" "FROZEN PCB feature"
+			(at 88.9 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "41cf314d-5012-40da-bfdf-c49ae3ed2b58")
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245/ee430f4b-49da-4d3b-b3f9-5e82a790596c"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	
+(property "Supplier_URL" "N/A - not purchased" (at 88.9 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "SMD copper pad D1.5mm" (at 88.9 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 88.9 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Bukan komponen beli atau item pick-and-place." (at 88.9 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+
+(label "GPS_TXD" (at 50.8 71.12 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "33e13672-d544-4d8b-b5d8-63502b19fc7a"))
+(label "GPS_RXD" (at 50.8 106.68 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ca310f49-6b93-4e8f-ac97-f4b202e8fad3"))
+(symbol (lib_id "Connector_Generic:Conn_01x04") (at 218.44 81.28 0) (unit 1) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "d441662b-73d3-49ea-927f-e9cc1c57678f") (property "Reference" "J5" (at 221.44 74.28 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GPS_UART_3V3" (at 221.44 77.28 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "MPN" "B4B-XH-A(LF)(SN)" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Status" "FROZEN geometry; procurement PROVISIONAL" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Module_Product" "GY-NEO6MV2 / EasyWare EP000267" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Module_Supplier_URL" "https://www.easyware.co.id/product/gy-neo6mv2-ublox-neo-6m-gps-module-sensor-navigasi-antena-eksternal-untuk-arduino/" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Pin_Map" "PCB J5: 1=3V3; 2=GND; 3=GPS_TXD; 4=GPS_RXD. Wire by signal, not module position." (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (pin "1" (uuid "5d20393b-0662-406e-bf02-48b9fbacb13f")) (pin "2" (uuid "dca96c01-b9c5-496f-be01-298bdab5c553")) (pin "3" (uuid "08a0cb65-8f88-4f9b-93e6-c3505ab2420f")) (pin "4" (uuid "b4ab901c-3d63-4a19-809b-fe345b0e05f7")) (instances (project "main_unit" (path "/52f16df5-15ce-409b-9317-bedc6782f245/ee430f4b-49da-4d3b-b3f9-5e82a790596c" (reference "J5") (unit 1))))
+(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://shopee.co.id/Connector-XH-2.54-PCB-Male-2P-3P-4P-5P-6P-2-3-4-5-6-Pin-Pitch-2.54-mm-i.48406045.20556550612" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "JST XH top entry 4pin pitch2.50mm" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Konektor kabel sisi PCB, bukan footprint board OLED/GPS. Wajib susun harness menurut nama net. Sama keluarga konektor HAV RGB, tetapi PINOUT BERBEDA." (at 218.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+(wire (pts (xy 175.26 78.74) (xy 213.36 78.74)) (stroke (width 0) (type default)) (uuid "5eb516df-ef60-4120-99df-6c0b667dfd8a"))
+(global_label "3V3_SYS" (shape passive) (at 175.26 78.74 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "aeb4e1c3-c95a-4a0a-9335-e5161ebd73c8"))
+(wire (pts (xy 175.26 81.28) (xy 213.36 81.28)) (stroke (width 0) (type default)) (uuid "0b0f5234-2090-4c7e-a9b1-95d46bf4af5d"))
+(global_label "GND" (shape passive) (at 175.26 81.28 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "8f2179c8-62dc-4f1c-a99e-9cee053872cc"))
+(wire (pts (xy 190.5 83.82) (xy 213.36 83.82)) (stroke (width 0) (type default)) (uuid "3a79e357-b3a5-4a3d-b8bd-a4c4c3ed0150"))
+(label "GPS_TXD" (at 190.5 83.82 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2c8344ea-c4fc-4bcd-b11e-4180fe001557"))
+(wire (pts (xy 190.5 86.36) (xy 213.36 86.36)) (stroke (width 0) (type default)) (uuid "12332bb2-e823-4ea0-9568-3fdb46ebd783"))
+(label "GPS_RXD" (at 190.5 86.36 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b2e7807b-e241-4125-b107-cd2301702ca7"))
+(symbol (lib_id "Device:C") (at 167.64 116.84 0) (unit 1) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "5254c3f6-27c4-4514-b907-8d6b10468ca6") (property "Reference" "C23" (at 171.64 115.57 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "10uF" (at 171.64 119.38 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "MPN" "CL21A106KAYNNNE" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Status" "FROZEN geometry; procurement PROVISIONAL" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage_Rating" ">=6.3V" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Dielectric" "X5R/X7R; verify effective capacitance" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (pin "1" (uuid "72bd6f38-3195-49d3-9a59-7d54efef100a")) (pin "2" (uuid "e04ed36a-1e42-4a7e-a633-ea83120b7858")) (instances (project "main_unit" (path "/52f16df5-15ce-409b-9317-bedc6782f245/ee430f4b-49da-4d3b-b3f9-5e82a790596c" (reference "C23") (unit 1))))
+(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A106KAYNNN.do" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://shopee.co.id/product/45119540/7441919037" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "0805; 10uF 25V X5R" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Samsung resmi: 2.0x1.25x1.25mm; cek effective C. Listing terindeks, bukan bukti stok langsung." (at 167.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+(wire (pts (xy 167.64 109.22) (xy 167.64 113.03)) (stroke (width 0) (type default)) (uuid "d771081c-1111-4545-b1eb-ffe53969be8f"))
+(global_label "3V3_SYS" (shape passive) (at 167.64 109.22 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "56586c98-22d0-4e14-ad40-1651d83e05c7"))
+(wire (pts (xy 167.64 120.65) (xy 167.64 124.46)) (stroke (width 0) (type default)) (uuid "2d04aab9-537b-42c1-bcc4-a1321a1b12c8"))
+(global_label "GND" (shape passive) (at 167.64 124.46 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "29317ca3-49bf-4306-bd51-6f472321b904"))
+(symbol (lib_id "Device:C") (at 203.2 116.84 0) (unit 1) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "5388bae6-7653-4a41-a005-3d8c402d83e8") (property "Reference" "C24" (at 207.2 115.57 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100nF" (at 207.2 119.38 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "MPN" "C0805C104K5RACTU" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Status" "FROZEN geometry; procurement PROVISIONAL" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Voltage_Rating" ">=6.3V" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (property "Dielectric" "X5R/X7R; verify effective capacitance" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes))) (pin "1" (uuid "f14f84e4-f7d8-4589-af01-8030888b02a2")) (pin "2" (uuid "2e85efbf-4fbe-4aad-8fae-aabad7a9a00c")) (instances (project "main_unit" (path "/52f16df5-15ce-409b-9317-bedc6782f245/ee430f4b-49da-4d3b-b3f9-5e82a790596c" (reference "C24") (unit 1))))
+(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C104K5RACTU" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://shopee.co.id/product/25936178/8912815073" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "0805; 100nF 50V X7R" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 203.2 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+(wire (pts (xy 203.2 109.22) (xy 203.2 113.03)) (stroke (width 0) (type default)) (uuid "5f310a8a-856e-4490-ae4d-d304e6988238"))
+(global_label "3V3_SYS" (shape passive) (at 203.2 109.22 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "f024cc41-b58c-42dc-abee-fb919de03f7b"))
+(wire (pts (xy 203.2 120.65) (xy 203.2 124.46)) (stroke (width 0) (type default)) (uuid "4ead45e9-0556-480c-84ed-684d554c00e7"))
+(global_label "GND" (shape passive) (at 203.2 124.46 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "a7291d61-225b-4d20-bc79-abcfe0ce3ef0"))
+(text "3.3 V PROVISIONAL: uji startup board GPS." (at 144.78 139.7 0) (effects (font (size 1.15 1.15)) (justify left top)) (uuid "86f98fb2-a436-46c1-8956-40ec286c774d"))
+(text "Nomor J5 = sisi PCB; cocokkan label modul." (at 144.78 147.32 0) (effects (font (size 1.15 1.15)) (justify left top)) (uuid "745ccd28-5bea-44bf-a02b-6ef1d9527c66"))
+(text "Jangan sambungkan langsung ke baterai 2S." (at 144.78 154.94 0) (effects (font (size 1.15 1.15)) (justify left top)) (uuid "f52b6904-7f76-49d2-bc75-df0b3f8fc987"))
+)

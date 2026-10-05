@@ -1,0 +1,1468 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "81431d15-93b2-4cb6-a15d-67d32d10d37f")
+	(paper "A4")
+	(title_block
+		(title "MAIN CONNECTORS / TEST POINTS")
+		(date "2026-09-16")
+		(rev "A0-CONN-DRAFT")
+		(comment 1 "DRAFT - NOT FOR FABRICATION")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "W-08 | MAIN CONNECTORS / TEST POINTS"
+		(exclude_from_sim no)
+		(at 22.86 20.32 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "0a53d91a-fc7d-400e-b31d-d12d8ad56ee6")
+	)
+	(text "1 GND | 2 3V3 reference"
+		(exclude_from_sim no)
+		(at 162.56 58.42 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "258120e1-c9af-4a15-b641-bdc60c2f35ff")
+	)
+	(text "J4 / TP24-28: MAIN_POWER"
+		(exclude_from_sim no)
+		(at 22.86 177.8 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left top)
+		)
+		(uuid "2cb8ccf1-1e3c-4fda-806f-c9fe30042fdf")
+	)
+	(text "RESET/BOOT di MCU | UART 3.3 V | J1 header 2.54 mm"
+		(exclude_from_sim no)
+		(at 22.86 147.32 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "328168f1-dc47-4ebd-bf2b-7d3cade24122")
+	)
+	(text "SERVICE UART / PROGRAMMING"
+		(exclude_from_sim no)
+		(at 22.86 30.48 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "529d8e7c-f71d-4b98-86a7-fef032e950a6")
+	)
+	(text "3 TX ESP -> RX adapter"
+		(exclude_from_sim no)
+		(at 162.56 68.58 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "54e4fd5b-051b-4133-ae6c-f1dba63b5947")
+	)
+	(text "TP5-10: MAIN_ADXL345"
+		(exclude_from_sim no)
+		(at 22.86 182.88 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left top)
+		)
+		(uuid "55517578-8069-4237-af91-8b8e568bb672")
+	)
+	(text "J1.2: reference only; jangan hubungkan output daya adapter"
+		(exclude_from_sim no)
+		(at 22.86 139.7 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "5cae8518-b11b-4fa7-a44d-fa947c8d3e6d")
+	)
+	(text "J1 - KONTRAK PIN PCB"
+		(exclude_from_sim no)
+		(at 162.56 48.26 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left top)
+		)
+		(uuid "5cb192df-62a3-4306-993f-ec43f1a83039")
+	)
+	(text "J3 / TP19-21: MAIN_RTC_I2C_OLED"
+		(exclude_from_sim no)
+		(at 22.86 172.72 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left top)
+		)
+		(uuid "6173f42e-e4c4-4da3-ad6e-5a6bd425f667")
+	)
+	(text "J2 / TP14-18: MAIN_MICROSD"
+		(exclude_from_sim no)
+		(at 22.86 167.64 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left top)
+		)
+		(uuid "87910d6c-93a2-41b4-a2d9-029377e78252")
+	)
+	(text "4 RX ESP <- TX adapter"
+		(exclude_from_sim no)
+		(at 162.56 78.74 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "99ec923c-ab0e-4941-904e-f70ff73f2929")
+	)
+	(text "TP22-23: MAIN_HMI"
+		(exclude_from_sim no)
+		(at 22.86 193.04 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left top)
+		)
+		(uuid "b123aee9-a380-4bef-82a1-770b8bf2e53b")
+	)
+	(text "J5 / TP11-13: MAIN_GPS"
+		(exclude_from_sim no)
+		(at 22.86 187.96 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left top)
+		)
+		(uuid "c82cf119-c8e8-4a83-b6dc-08402c1e6938")
+	)
+	(text "INDEKS - TETAP DI SHEET FUNGSINYA"
+		(exclude_from_sim no)
+		(at 22.86 160.02 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left top)
+		)
+		(uuid "d9dea76c-35bc-49b8-b68e-86bf41f9140f")
+	)
+	(text "5 EN | 6 GPIO0 / BOOT"
+		(exclude_from_sim no)
+		(at 162.56 88.9 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "fef1467a-4d4b-4556-82cc-fb6ae80f2b7a")
+	)
+	(wire
+		(pts
+			(xy 63.5 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f39df4-f712-406c-8343-75a26e9e7e50")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4973904d-1d26-4f9c-9d0c-a0f0ec7cc741")
+	)
+	(wire
+		(pts
+			(xy 226.06 119.38) (xy 226.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57533411-0a58-4a9b-b17b-26e4eb3eebae")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6c51b4-f69e-4d2d-8857-7d3956a2e07b")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903c5504-d362-420c-9e9e-f46fc7484d51")
+	)
+	(wire
+		(pts
+			(xy 63.5 68.58) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7ffc65-5266-4c9e-9037-8983826fa784")
+	)
+	(wire
+		(pts
+			(xy 63.5 73.66) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8844dc-b324-433b-96af-7a2f9c43cc07")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ffec04-721e-4af3-8f97-71d240d74eb3")
+	)
+	(wire
+		(pts
+			(xy 45.72 119.38) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d459f6f1-7cee-40c3-9dfb-e8d8e46ffa44")
+	)
+	(wire
+		(pts
+			(xy 63.5 78.74) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bf35ec-0e54-481e-87e5-ecda6dc63052")
+	)
+	(global_label "UART_RX0"
+		(shape passive)
+		(at 226.06 127 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "060f97cf-6fca-4546-bd70-370ebe8bb969")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "UART_RX0"
+		(shape passive)
+		(at 63.5 73.66 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "162bd9d2-c92e-4150-8227-a26fc7986dc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "MAIN_GPIO0"
+		(shape passive)
+		(at 63.5 78.74 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "29c0bccd-c1e9-4cb2-8e1a-d23898fe7c34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "MAIN_GPIO0"
+		(shape passive)
+		(at 104.14 127 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "487260f4-f666-449a-aadb-b934d10cc9c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "MAIN_EN"
+		(shape passive)
+		(at 63.5 76.2 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "4c100b0d-3b8e-4fcf-b071-7ad83a9efba1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "UART_TX0"
+		(shape passive)
+		(at 165.1 127 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "4da6d9e7-5e1c-4dff-9f93-72d9f944cf72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "MAIN_EN"
+		(shape passive)
+		(at 45.72 127 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "7116b894-4a06-4589-baef-aa757003c75b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "UART_TX0"
+		(shape passive)
+		(at 63.5 71.12 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "86721c79-ea7f-40a4-9cd2-4c667a7f22bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "3V3_SYS"
+		(shape passive)
+		(at 63.5 68.58 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "aa44ab64-7fdc-473d-97eb-22ebf69fa87e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 63.5 66.04 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "ac340856-3234-42d0-8c79-3d674bd18e09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 114.3 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e53f3d8-aac4-400e-b504-2eed5dd033d6")
+		(property "Reference" "J1"
+			(at 116.84 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PROG_UART_3V3"
+			(at 116.84 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 114.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "Description" ""
+			(at 114.3 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "MPN" "OPEN - generic straight 1x06 2.54mm; manufacturer not disclosed"
+			(at 114.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+			(at 114.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4aea9bf3-01d8-4f07-a1c3-dd9c37f26b78")
+		)
+		(pin "2"
+			(uuid "a70d9bcd-33e8-49ee-a6bc-b05cba3f861b")
+		)
+		(pin "3"
+			(uuid "c6e7d254-583f-47d6-b159-6146545943f7")
+		)
+		(pin "4"
+			(uuid "902a1368-1429-4d3f-b407-b4bdc7663bad")
+		)
+		(pin "5"
+			(uuid "21d8abb0-b81d-4070-9bf9-03765b792711")
+		)
+		(pin "6"
+			(uuid "7ae61c3d-2feb-4f45-ab7a-b3a9dff1d636")
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245/f3290d67-400e-40d7-a900-400ad73bf779"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	
+(property "Supplier_URL" "https://shopee.co.id/Breakable-Pin-Header-40-Pin-1x40-Male-2.54-untuk-Arduino-Raspberry-i.15880091.133735804" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "THT male 1x6 pitch2.54mm; cut from 1x40" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "8a86722a-2bc0-4fee-92ee-0a0949441ae5")
+		(property "Reference" "TP1"
+			(at 48.26 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAIN_EN"
+			(at 48.26 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty"
+			(at 45.72 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "Description" ""
+			(at 45.72 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "MPN" "N/A - PCB copper feature"
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Status" "FROZEN PCB feature"
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a83b161a-75f9-4fa0-8d78-8f5dcdf41e27")
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245/f3290d67-400e-40d7-a900-400ad73bf779"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	
+(property "Supplier_URL" "N/A - not purchased" (at 45.72 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "SMD copper pad D1.5mm" (at 45.72 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 45.72 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Bukan komponen beli atau item pick-and-place." (at 45.72 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 226.06 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "bc03ec07-02d6-4046-9fd4-fae65ce64ce4")
+		(property "Reference" "TP4"
+			(at 228.6 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART_RX0"
+			(at 228.6 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 226.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty"
+			(at 226.06 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "Description" ""
+			(at 226.06 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "MPN" "N/A - PCB copper feature"
+			(at 226.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Status" "FROZEN PCB feature"
+			(at 226.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7e02a6b9-aed3-4ac6-a987-5614dcb9d1c3")
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245/f3290d67-400e-40d7-a900-400ad73bf779"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	
+(property "Supplier_URL" "N/A - not purchased" (at 226.06 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "SMD copper pad D1.5mm" (at 226.06 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 226.06 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Bukan komponen beli atau item pick-and-place." (at 226.06 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 165.1 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "bcdd808d-8864-4179-9469-805a5cd59713")
+		(property "Reference" "TP3"
+			(at 167.64 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART_TX0"
+			(at 167.64 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 165.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty"
+			(at 165.1 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "Description" ""
+			(at 165.1 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "MPN" "N/A - PCB copper feature"
+			(at 165.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Status" "FROZEN PCB feature"
+			(at 165.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d1e35c37-78f5-42c6-8750-391cee641a64")
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245/f3290d67-400e-40d7-a900-400ad73bf779"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	
+(property "Supplier_URL" "N/A - not purchased" (at 165.1 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "SMD copper pad D1.5mm" (at 165.1 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 165.1 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Bukan komponen beli atau item pick-and-place." (at 165.1 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "d13eae64-296e-4dd1-8fc2-fa07bda2364f")
+		(property "Reference" "TP2"
+			(at 106.68 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAIN_GPIO0"
+			(at 106.68 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty"
+			(at 104.14 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "Description" ""
+			(at 104.14 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		 (hide yes))
+		(property "MPN" "N/A - PCB copper feature"
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Status" "FROZEN PCB feature"
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2fb13fe6-2bf6-4411-a877-4679331376fa")
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245/f3290d67-400e-40d7-a900-400ad73bf779"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	
+(property "Supplier_URL" "N/A - not purchased" (at 104.14 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Package" "SMD copper pad D1.5mm" (at 104.14 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 104.14 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Selection_Note" "Bukan komponen beli atau item pick-and-place." (at 104.14 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
+)

@@ -1,0 +1,618 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "52f16df5-15ce-409b-9317-bedc6782f245")
+	(paper "A3")
+	(title_block
+		(title "MAIN ROOT - WBV + GPS")
+		(date "2026-09-16")
+		(rev "A0-MAIN-DRAFT")
+		(comment 1 "DRAFT - NOT FOR FABRICATION")
+	)
+	(lib_symbols)
+	(text "2S -> BUCK 3V3"
+		(exclude_from_sim no)
+		(at 22.86 231.14 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "24256a98-c739-476c-ab15-398ecf249b38")
+	)
+	(text "MAIN / WBV - ARSITEKTUR SKEMATIK"
+		(exclude_from_sim no)
+		(at 25.4 20.32 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "3f7df240-3a40-4aa9-aef9-38d9a12f17c4")
+	)
+	(text "SPI / global nets"
+		(exclude_from_sim no)
+		(at 104.14 231.14 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "4eddb569-b513-41c5-b37a-0b0ccc1d08d4")
+	)
+	(text "RTC + OLED / I2C"
+		(exclude_from_sim no)
+		(at 185.42 231.14 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "6241a5e4-b388-49da-abc8-c78df279ac10")
+	)
+	(text "WBV: I2C 400 kHz / ODR 400 Hz"
+		(exclude_from_sim no)
+		(at 241.3 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "69fea937-b721-4b73-ba4e-78886f42659c")
+	)
+	(text "START/STOP GPIO4"
+		(exclude_from_sim no)
+		(at 266.7 231.14 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "b29484a5-4057-48c6-a6c2-7840612bc2d1")
+	)
+	(text "SDA21 / SCL22 / INT34 - global nets"
+		(exclude_from_sim no)
+		(at 241.3 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c3206567-916d-4e98-85c0-d1c764c76d72")
+	)
+	(text "J1 / TP1-TP4"
+		(exclude_from_sim no)
+		(at 347.98 231.14 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left top)
+		)
+		(uuid "cb61b722-aa5a-4c51-a66d-0ca8eb84e134")
+	)
+	(wire
+		(pts
+			(xy 144.78 149.86) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079c7280-8528-4c2c-9911-4e54fff0aba9")
+	)
+	(wire
+		(pts
+			(xy 144.78 124.46) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a22c627-e435-4e4e-a1d4-e1f6e87a0b13")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 182.88 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1099241f-f64a-4133-a72f-9f9822ab0582")
+	)
+	(wire
+		(pts
+			(xy 170.18 144.78) (xy 233.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a487d0-3179-4483-bf4f-76e1abcdc8b5")
+	)
+	(wire
+		(pts
+			(xy 182.88 137.16) (xy 182.88 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bde2a0e-7d20-4417-aae2-6473f743b03e")
+	)
+	(wire
+		(pts
+			(xy 195.58 149.86) (xy 195.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca3458c-9fcd-4223-b83d-5b12b74ba8df")
+	)
+	(wire
+		(pts
+			(xy 195.58 170.18) (xy 233.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca43325-6412-4dd4-8c85-1363f39b53b3")
+	)
+	(wire
+		(pts
+			(xy 182.88 157.48) (xy 233.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7013cd6-d656-4b0c-b810-10baee665575")
+	)
+	(wire
+		(pts
+			(xy 170.18 124.46) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b2d7a8-6f62-4f7b-af48-d60d719d3e8d")
+	)
+	(sheet
+		(at 99.06 220.98)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "03fe30d9-a762-49b9-b44d-ba4b4a8d4b2c")
+		(property "Sheetname" "MAIN_MICROSD"
+			(at 99.06 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "main_microsd.kicad_sch"
+			(at 99.06 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 50.8)
+		(size 109.22 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "359ee5a0-ed01-4ba5-ad9e-f7b627cc73d6")
+		(property "Sheetname" "MAIN_ADXL345"
+			(at 233.68 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "main_adxl345.kicad_sch"
+			(at 233.68 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 220.98)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "633d3167-a0e4-4af0-a508-007b81252f2b")
+		(property "Sheetname" "MAIN_POWER"
+			(at 17.78 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "main_power.kicad_sch"
+			(at 17.78 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 50.8)
+		(size 106.68 109.22)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8557711f-4c6f-4078-9cfe-41c7e7376f41")
+		(property "Sheetname" "MAIN_ESP32_PROGRAMMING"
+			(at 38.1 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "main_esp32_programming.kicad_sch"
+			(at 38.1 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_TXD" input
+			(at 144.78 124.46 0)
+			(uuid "047589d3-59a3-449c-a9ef-a1ab09ad57eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_RXD" output
+			(at 144.78 137.16 0)
+			(uuid "0d7b52d2-57c9-45db-abb1-456de163f478")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_PPS" input
+			(at 144.78 149.86 0)
+			(uuid "5bab2464-a3fb-42a6-a89c-6751fcf4abbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 261.62 220.98)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ce4b4a37-0fa2-4693-be56-02809c4987cf")
+		(property "Sheetname" "MAIN_HMI"
+			(at 261.62 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "main_hmi.kicad_sch"
+			(at 261.62 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 220.98)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "de667039-d55c-4bf0-ac37-224fb0acc5ea")
+		(property "Sheetname" "MAIN_RTC_I2C_OLED"
+			(at 180.34 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "main_rtc_i2c_oled.kicad_sch"
+			(at 180.34 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 134.62)
+		(size 109.22 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee430f4b-49da-4d3b-b3f9-5e82a790596c")
+		(property "Sheetname" "MAIN_GPS"
+			(at 233.68 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "main_coordinates.kicad_sch"
+			(at 233.68 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_TXD" output
+			(at 233.68 144.78 180)
+			(uuid "11cf2514-54c9-40a3-a871-98e8c704f782")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_RXD" input
+			(at 233.68 157.48 180)
+			(uuid "f57f4ddb-43c3-40d9-a217-5c1a66bab23f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_PPS" output
+			(at 233.68 170.18 180)
+			(uuid "dbe4d90d-29bb-407f-8975-fa95379c69ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 220.98)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f3290d67-400e-40d7-a900-400ad73bf779")
+		(property "Sheetname" "MAIN_CONNECTORS_TESTPOINTS"
+			(at 342.9 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "main_connectors_testpoints.kicad_sch"
+			(at 342.9 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_unit"
+				(path "/52f16df5-15ce-409b-9317-bedc6782f245"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
