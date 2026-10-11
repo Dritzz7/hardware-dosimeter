@@ -1,0 +1,26 @@
+{
+  "updated": "2026-10-11",
+  "status": "quotation_and_assembly_review",
+  "production_approved": false,
+  "HAV": {
+    "directory": "jlcpcb/HAV_20261008",
+    "pcb_source": "hav_node/hav_node.kicad_pcb",
+    "pcb_sha256": "907975f604b4ef998354d37513aa0b94f11d74516cdbcd27c76a0fc4f7686a78",
+    "quantity_boards": 10,
+    "assembly_sides": ["Top", "Bottom"],
+    "gerber": "HAV_JLC_Gerber_Drill.zip",
+    "bom": "HAV_JLC_BOM.csv",
+    "cpl": "HAV_JLC_CPL.csv"
+  },
+  "WBV": {
+    "directory": "jlcpcb/WBV_20261011_R2",
+    "pcb_source": "main_unit/main_unit.kicad_pcb",
+    "pcb_sha256": "b12aca76087c5cf46c191987fb38812e66694cdd9b151724490a40e690b784f0",
+    "quantity_boards": 10,
+    "assembly_sides": ["Top"],
+    "gerber": "WBV_Gerber_Drill_REVIEW.zip",
+    "bom": "WBV_JLC_BOM.csv",
+    "cpl": "WBV_JLC_CPL.csv",
+    "supersedes": ["jlcpcb/WBV_20261011"]
+  }
+}
