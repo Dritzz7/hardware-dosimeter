@@ -938,7 +938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_WBV_JLC:PinHeader_1x06_P2.54mm_ZHOURI_1.02mm"
 			(at 114.3 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -950,7 +950,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ZHOURI_C5156615.pdf"
 			(at 114.3 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -970,7 +970,7 @@
 				)
 			)
 		 (hide yes))
-		(property "MPN" "OPEN - generic straight 1x06 2.54mm; manufacturer not disclosed"
+		(property "MPN" "2.54-1*6"
 			(at 114.3 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -982,7 +982,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 114.3 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1021,14 +1021,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/Breakable-Pin-Header-40-Pin-1x40-Male-2.54-untuk-Arduino-Raspberry-i.15880091.133735804" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/ZHOURI-2_54_16/C5156615" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Package" "THT male 1x6 pitch2.54mm; cut from 1x40" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Package" "THT male1x06 P2.54mm; square pin0.63mm; drill1.02mm" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "Exact ZHOURI 2.54-1*6; drill1.02mm mengikuti drawing pabrikan, bukan header potongan generik." (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "ZHOURI" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C5156615" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 114.3 71.12 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 45.72 119.38 0)

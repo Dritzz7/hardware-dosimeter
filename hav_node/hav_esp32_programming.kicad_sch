@@ -2596,7 +2596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta_vibration_footprints:ESP32-WROOM-32E_NoThermalVias" (hide yes)
+		(property "Footprint" "hav_jlc:ESP32-WROOM-32E_JLC_NoVia" (hide yes)
 			(at 146.05 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2746,12 +2746,24 @@
 			)
 		)
 	
-		(property "Footprint_Status" "PROVISIONAL - S02 no thermal PTH; preserve SMD EPAD; connect all pad39 islands to F.Cu GND and verify assembly/temperature before release" (hide yes) (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "MPN" "ESP32-WROOM-32E-N4" (hide yes) (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Manufacturer" "Espressif" (hide yes) (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C701341" (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/EspressifSystems-ESP32_WROOM_32EN4/C701341" (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Package" "WROOM-32E; 4 MB flash; PCB antenna; bukan DevKit" (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 129.54 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 137.16 45.72 0)
@@ -2990,18 +3002,26 @@
 			)
 		)
 	
-		(property "Package" "0805 / 2012 metric; 1%; 0.125W" (hide yes) (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "33 ohm; 1%; 0.125 W; 0805" (hide yes) (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - package planning; not fabrication release" (hide yes) (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "RC0805FR-0733RL" (hide yes) (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - exact MPN, datasheet and local stock must be verified" (hide yes) (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "Manufacturer" "Yageo" (hide yes) (at 156.21 101.6 270) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Design_Status" "FROZEN nominal/package; equivalent supplier part requires verification" (hide yes) (at 156.21 101.6 270) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C126353" (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/YAGEO-RC0805FR0733RL/C126353" (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 156.21 101.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 80.01 68.58 0)
@@ -3162,18 +3182,26 @@
 			)
 		)
 	
-		(property "Package" "0805 / 2012 metric; 1%; 0.125W" (hide yes) (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "499 ohm; 1%; 0.125 W; 0805" (hide yes) (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - package planning; not fabrication release" (hide yes) (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "RC0805FR-07499RL" (hide yes) (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - exact MPN, datasheet and local stock must be verified" (hide yes) (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "Manufacturer" "Yageo" (hide yes) (at 158.75 63.5 270) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Design_Status" "FROZEN nominal/package; equivalent supplier part requires verification" (hide yes) (at 158.75 63.5 270) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C130458" (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/YAGEO-RC0805FR07499RL/C130458" (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 158.75 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 121.92 177.8 0)
@@ -3604,13 +3632,19 @@
 	
 		(property "Manufacturer" "Omron" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Supplier_URL" "https://shopee.co.id/Omron-B3F-1000-Mouse-Micro-Switch-Replacement-i.14650059.53560901762" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/OmronElectronics-B3F1000/C93157" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Package" "6x6mm tactile NO, H4.3mm; holes 6.5x4.5mm" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "Momentary SPST-NO; 6x6 mm; H4.3 mm; RESET / BOOT" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "FROZEN geometry for B3F-1000; receipt and authenticity verification required" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - indexed Shopee listing; stock, origin and exact variant not confirmed" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C93157" (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 193.04 55.88 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -3789,18 +3823,26 @@
 			)
 		)
 	
-		(property "Package" "0805 / 2012 metric; 1%; 0.125W" (hide yes) (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "33 ohm; 1%; 0.125 W; 0805" (hide yes) (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - package planning; not fabrication release" (hide yes) (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "RC0805FR-0733RL" (hide yes) (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - exact MPN, datasheet and local stock must be verified" (hide yes) (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "Manufacturer" "Yageo" (hide yes) (at 226.06 134.62 270) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Design_Status" "FROZEN nominal/package; equivalent supplier part requires verification" (hide yes) (at 226.06 134.62 270) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C126353" (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/YAGEO-RC0805FR0733RL/C126353" (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 226.06 134.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 102.87 49.53 0)
@@ -3883,18 +3925,26 @@
 			)
 		)
 	
-		(property "Package" "0805 / 2012 metric; 1%; 0.125W" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "10 kohm; 1%; 0.125 W; 0805" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - package planning; not fabrication release" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "RC0805FR-0710KL" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - exact MPN, datasheet and local stock must be verified" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "Manufacturer" "Yageo" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Design_Status" "FROZEN nominal/package; equivalent supplier part requires verification" (hide yes) (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C84376" (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/Yageo-RC0805FR0710KL/C84376" (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 102.87 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 137.16 41.91 0)
@@ -3977,18 +4027,26 @@
 			)
 		)
 	
-		(property "Package" "0805 / 2012 metric; X7R; 10%" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "100 nF; 50 V; X7R; 10%; 0805" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - package planning; not fabrication release" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "C0805C104K5RACTU" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - exact MPN, datasheet and local stock must be verified" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "Manufacturer" "KEMET" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Design_Status" "FROZEN nominal/package; equivalent supplier part requires verification" (hide yes) (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C3018562" (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACTU/C3018562" (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 137.16 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 80.01 64.77 0)
@@ -4071,18 +4129,26 @@
 			)
 		)
 	
-		(property "Package" "0805 / 2012 metric; X7R; 10%" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "1 uF; 16 V; X7R; 10%; 0805" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - package planning; not fabrication release" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "C0805C105K4RACTU" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - exact MPN, datasheet and local stock must be verified" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "Manufacturer" "KEMET" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Design_Status" "FROZEN nominal/package; equivalent supplier part requires verification" (hide yes) (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C2167376" (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C105K4RACTU/C2167376" (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 80.01 64.77 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 200.66 78.74 0)
@@ -4338,18 +4404,26 @@
 			)
 		)
 	
-		(property "Package" "0805 / 2012 metric; 1%; 0.125W" (hide yes) (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "33 ohm; 1%; 0.125 W; 0805" (hide yes) (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - package planning; not fabrication release" (hide yes) (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "RC0805FR-0733RL" (hide yes) (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - exact MPN, datasheet and local stock must be verified" (hide yes) (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "Manufacturer" "Yageo" (hide yes) (at 156.21 91.44 270) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Design_Status" "FROZEN nominal/package; equivalent supplier part requires verification" (hide yes) (at 156.21 91.44 270) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C126353" (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/YAGEO-RC0805FR0733RL/C126353" (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 156.21 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 168.91 49.53 0)
@@ -4432,18 +4506,26 @@
 			)
 		)
 	
-		(property "Package" "0805 / 2012 metric; 1%; 0.125W" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "10 kohm; 1%; 0.125 W; 0805" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - package planning; not fabrication release" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "RC0805FR-0710KL" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - exact MPN, datasheet and local stock must be verified" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 (property "Manufacturer" "Yageo" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Design_Status" "FROZEN nominal/package; equivalent supplier part requires verification" (hide yes) (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+
+		(property "LCSC Part #" "C84376" (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/Yageo-RC0805FR0710KL/C84376" (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 168.91 49.53 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 205.74 68.58 0)
@@ -4479,7 +4561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (hide yes)
+		(property "Footprint" "Connector_HAV_JLC:PinHeader_1x06_P2.54mm_ZHOURI_1.02mm" (hide yes)
 			(at 205.74 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4490,7 +4572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "" (hide yes)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ZHOURI_C5156615.pdf" (hide yes)
 			(at 205.74 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4539,17 +4621,23 @@
 			)
 		)
 	
-		(property "MPN" "OPEN - generic straight 1x06 2.54mm; manufacturer not disclosed" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "MPN" "2.54-1*6" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Manufacturer" "OPEN" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "ZHOURI" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Supplier_URL" "https://shopee.co.id/Breakable-Pin-Header-40-Pin-1x40-Male-2.54-untuk-Arduino-Raspberry-i.15880091.133735804" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/ZHOURI-2_54_16/C5156615" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Package" "THT straight male header, six positions, P2.54mm, square pin 0.64mm" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "THT male 1x06 P2.54; pin 0.63mm square; drill 1.02mm; insulator H2.54mm" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "PROVISIONAL - selected geometry; exact purchased part verification BLOCKING release" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - indexed Shopee listing; stock, origin and exact variant not confirmed" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C5156615" (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 205.74 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4633,17 +4721,23 @@
 			)
 		)
 	
-		(property "Footprint_Status" "FROZEN geometry for selected MPN; assembly review required before release" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "PROVISIONAL - Indonesian listing found; verify live stock, authenticity and dimensions before ordering" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "MPN" "CL31A226KOHNNNE" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
 		(property "Manufacturer" "Samsung Electro-Mechanics" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Package" "1206 (3216 metric); 3.2x1.6x1.6mm nominal; X5R; 10%; 16V" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "22 uF; 16 V; X5R; 10%; 1206" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Supplier_URL" "https://shopee.co.id/product/9011098/20078115669" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/CL31A226KOHNNNE/C90146" (hide yes) (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C90146" (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 153.67 41.91 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -4729,13 +4823,19 @@
 	
 		(property "Manufacturer" "Omron" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Supplier_URL" "https://shopee.co.id/Omron-B3F-1000-Mouse-Micro-Switch-Replacement-i.14650059.53560901762" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Supplier_URL" "https://jlcpcb.com/partdetail/OmronElectronics-B3F1000/C93157" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Package" "6x6mm tactile NO, H4.3mm; holes 6.5x4.5mm" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "Momentary SPST-NO; 6x6 mm; H4.3 mm; RESET / BOOT" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Footprint_Status" "FROZEN geometry for B3F-1000; receipt and authenticity verification required" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint_Status" "ENGINEERING REVIEWED JLC-03; production release requires CAD and JLC assembly review" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	
-		(property "Procurement_Status" "OPEN - indexed Shopee listing; stock, origin and exact variant not confirmed" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Procurement_Status" "FROZEN MPN JLC-02; selected for Standard PCBA; stock not reserved; order review required" (hide yes) (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C93157" (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard" (at 88.9 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "power:GND")

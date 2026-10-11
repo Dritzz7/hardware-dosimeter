@@ -1,0 +1,10 @@
+*.kicad_prl
+*.lck
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+.history/
+/hav_node/*.md
+/main_unit/*.md
+/libraries/*.md

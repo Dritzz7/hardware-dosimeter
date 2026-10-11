@@ -1,12 +1,17 @@
 (version 1)
-# S03 PROVISIONAL Spectra two-layer process. No vendor confirmation yet.
-# No ADXL345 exceptions: selected CAM candidate has 0.270mm copper gap.
-# Its 0.0668mm nominal mask dam still needs vendor acceptance before production.
-(rule "Spectra no micro blind or buried vias"
+# JLC-03: two-layer FR4, 1oz, green mask, ENIG engineering baseline.
+# Existing conservative routing/zone limits retained; no ignored DRC errors.
+(rule "HAV two-layer through vias only"
   (constraint disallow micro_via blind_via buried_via))
-(rule "Spectra plane spacing"
+(rule "HAV conservative plane spacing"
   (condition "A.Type == 'Zone'")
   (constraint clearance (min 0.508mm)))
-(rule "Spectra thermal relief"
+(rule "HAV thermal relief"
   (constraint thermal_relief_gap (min 0.254mm))
   (constraint thermal_spoke_width (opt 0.30mm)))
+# ADI official copper land gap is 0.250mm. Permit 0.200mm locally (JLC 1oz
+# SMD pad-to-pad minimum 0.150mm). Not a waiver: DRC still enforces this rule.
+# Do not reduce plane spacing or other nets' default 0.254mm clearance.
+(rule "ADXL345 official land and fanout"
+  (condition "(A.Type == 'Pad' && A.memberOfFootprint('U2') && B.Type != 'Zone') || (B.Type == 'Pad' && B.memberOfFootprint('U2') && A.Type != 'Zone')")
+  (constraint clearance (min 0.20mm)))

@@ -3132,7 +3132,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 340.36 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3159,14 +3159,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/25936178/8912815073" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACTU/C3018562" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 100nF 50V X7R" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "KEMET" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C3018562" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 340.36 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 71.12 167.64 0)
@@ -3244,7 +3254,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 71.12 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -3271,14 +3281,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/119918417/25227825636" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/YAGEO-RC0805FR07330KL/C114528" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 330k 1% 0.125W" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Yageo" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C114528" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 71.12 167.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "ta_power_modules:MP1584_MODULE_PROVISIONAL")
 		(at 254 63.5 0)
@@ -3478,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 304.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3505,14 +3525,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://www.monotaro.id/s037414825.html" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/PANASONIC-EEUFR1E470/C407893" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "Radial D5mm H11mm P2mm; 47uF 25V" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Panasonic" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C407893" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 304.8 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 228.6 162.56 0)
@@ -3700,7 +3730,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 38.1 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3727,14 +3757,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/Connector-XH-2.54-PCB-Male-2P-3P-4P-5P-6P-2-3-4-5-6-Pin-Pitch-2.54-mm-i.48406045.20556550612" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/B2B-XH-A%28LF%29%28SN%29/C158012" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "JST XH top entry 2pin pitch2.50mm" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama HAV J2; pin1=P+ protected, pin2=P-. Generic 2.54mm tidak otomatis cocok JST2.50mm." (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "JST" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C158012" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 38.1 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 302.26 162.56 0)
@@ -4127,7 +4167,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "PROVISIONAL rating and procurement; footprint selected"
+		(property "Status" "FROZEN MPN/footprint; PROVISIONAL rating derating/inrush verification"
 			(at 96.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4154,14 +4194,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/search?keyword=MF%20MSMF075%202%201812%200.75A" (at 96.52 63.5 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/BOURNS-MF_MSMF0752/C84140" (at 96.52 63.5 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "1812 Style1; hold0.75A trip1.5A max13.2V" (at 96.52 63.5 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 96.52 63.5 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 96.52 63.5 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "WBV-04: retain 0.75A input PTC provisionally; hot derating/inrush require measured load. Not BMS. See WBV_04_REVIEW_SKEMATIK.md." (at 96.52 63.5 90) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "Exact MF-MSMF075-2; rating0.75A tetap PROVISIONAL terhadap suhu/inrush. PTC bukan pengganti BMS." (at 96.52 63.5 90) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Bourns" (at 96.52 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C84140" (at 96.52 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 96.52 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 96.52 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 96.52 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 233.68 91.44 0)
@@ -4554,7 +4604,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4581,14 +4631,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/25936178/8912815073" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACTU/C3018562" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 100nF 50V X7R" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "KEMET" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C3018562" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 193.04 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 111.76 220.98 0)
@@ -4769,7 +4829,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 111.76 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -4796,14 +4856,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/25936178/8912815073" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACTU/C3018562" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 100nF 50V X7R" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "KEMET" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C3018562" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 111.76 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 228.6 213.36 0)
@@ -5203,7 +5273,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 162.56 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5230,14 +5300,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://www.monotaro.id/s037414825.html" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/PANASONIC-EEUFR1E470/C407893" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "Radial D5mm H11mm P2mm; 47uF 25V" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Panasonic" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C407893" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 162.56 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 228.6 213.36 0)
@@ -5418,7 +5498,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 71.12 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -5445,12 +5525,22 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/16973105/49051878593" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/YAGEO-RC0805FR07100KL/C96346" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 100k 1% 0.125W" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Yageo" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C96346" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 71.12 203.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 )

@@ -1,4 +1,7 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "ta_vibration_footprints") (type "KiCad") (uri "${KIPRJMOD}/../libraries/ta_vibration_footprints.pretty") (options "") (descr ""))
+
+	(lib (name "wbv_jlc") (type "KiCad") (uri "${KIPRJMOD}/wbv_jlc.pretty") (options "") (descr "WBV manufacturer-based footprints for JLC layout"))
+	(lib (name "Connector_WBV_JLC") (type "KiCad") (uri "${KIPRJMOD}/wbv_jlc.pretty") (options "") (descr "Header alias matching connector footprint filters"))
 )

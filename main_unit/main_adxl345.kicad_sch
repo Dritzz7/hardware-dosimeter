@@ -2106,7 +2106,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 119.38 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2133,14 +2133,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/25936178/24826003791" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C105K4RACTU/C2167376" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 1uF 16V X7R" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "KEMET" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C2167376" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 119.38 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 119.38 88.9 0)
@@ -2321,7 +2331,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2348,14 +2358,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/25936178/8912815073" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACTU/C3018562" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 100nF 50V X7R" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "KEMET" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C3018562" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 205.74 137.16 0)
@@ -2607,7 +2627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta_vibration_footprints:ADXL345_CC-14-1_Spectra_CANDIDATE"
+		(property "Footprint" "wbv_jlc:ADXL345_CC-14-1_ADI_JLC"
 			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2653,7 +2673,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "PROVISIONAL Spectra candidate; fabrication approval BLOCKING"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2716,14 +2736,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/search?keyword=ADXL345BCCZ%20IC%20LGA" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/AnalogDevices-ADXL345BCCZRL7/C9667" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "LGA14 CC-14-1 3x5mm P0.8mm" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama kandidat Spectra HAV; modified pad gap0.270mm. NOT official ADI land pattern. Mask/assembly approval still required; no new geometry generated." (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "Land ADI 1.145x0.55mm, pitch0.8mm; menggantikan Spectra candidate. Mask+0.05mm; paste1:1." (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Analog Devices" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C9667" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 190.5 78.74 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 81.28 144.78 0)
@@ -2910,7 +2940,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 40.64 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2937,14 +2967,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/25936178/8912815073" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACTU/C3018562" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 100nF 50V X7R" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "KEMET" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C3018562" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 40.64 76.2 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 81.28 170.18 0)
@@ -3206,7 +3246,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "PROVISIONAL procurement; footprint selected"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3233,14 +3273,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/search?keyword=BLM21PG601SN1D" (at 60.96 48.26 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG601SN1D/C41556732" (at 60.96 48.26 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 600ohm at100MHz; 1.4A; DCR<=0.14ohm" (at 60.96 48.26 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 60.96 48.26 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 60.96 48.26 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Bead Main tetap, tidak otomatis dihapus mengikuti HAV. Basis Murata verified series; local exact listing belum ditemukan." (at 60.96 48.26 90) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "Bead WBV dipertahankan; berbeda dengan penghapusan bead HAV. Exact MPN ditemukan pada katalog JLC." (at 60.96 48.26 90) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Murata Electronics" (at 60.96 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C41556732" (at 60.96 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 60.96 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 60.96 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 60.96 48.26 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 81.28 132.08 0)

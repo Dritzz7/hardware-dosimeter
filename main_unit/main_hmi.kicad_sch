@@ -2165,7 +2165,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2192,14 +2192,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/16973105/49051878593" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/Yageo-RC0805FR0710KL/C84376" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 10k 1% 0.125W" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Yageo" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C84376" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 134.62 200.66 0)
@@ -2277,7 +2287,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 134.62 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -2304,14 +2314,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/25936178/8912815073" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACTU/C3018562" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 100nF 50V X7R" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "KEMET" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C3018562" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 134.62 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 165.1 104.14 0)
@@ -2389,7 +2409,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 165.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2416,14 +2436,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/25936178/8912815073" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACTU/C3018562" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 100nF 50V X7R" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Sama dengan basis komponen HAV; tidak mengubah HAV." (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "KEMET" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C3018562" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 165.1 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 81.28 220.98 0)
@@ -2669,7 +2699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "wbv_jlc:SOT-23-6_USBLC6-4SC6_ST"
 			(at 81.28 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -2715,7 +2745,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "PROVISIONAL procurement BLOCKING; retain existing 4SC6 circuit"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 81.28 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -2754,14 +2784,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/search?keyword=USBLC6-4SC6" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/USBLC6-4SC6/C111212" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Package" "SOT23-6; 4 data lines" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Package" "SOT23-6L; 4 data lines; ST Fig20 land pattern" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Exact source Indonesia belum ditemukan. USBLC6-2SC6 lokal BUKAN pengganti langsung. Jangan checkout varian2SC6 untuk footprint/netlist ini." (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "Tetap USBLC6-4SC6; bukan 2SC6. Land resmi ST 1.2x0.6mm, pitch0.95mm, jarak pusat baris2.3mm." (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "STMicroelectronics" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C111212" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 81.28 200.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 121.92 83.82 90)
@@ -2839,7 +2879,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "FROZEN geometry; procurement PROVISIONAL"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2866,14 +2906,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/16973105/49051878593" (at 121.92 83.82 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/YAGEO-RC0805FR071KL/C95781" (at 121.92 83.82 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
 (property "Package" "0805; 1k 1% 0.125W" (at 121.92 83.82 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 121.92 83.82 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 121.92 83.82 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Pilih varian nilai tepat; resistor generik bukan otomatis exact Yageo." (at 121.92 83.82 90) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "MPN dan footprint dipertahankan; baseline layout JLC, bukan release produksi." (at 121.92 83.82 90) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Yageo" (at 121.92 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C95781" (at 121.92 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 121.92 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 121.92 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 121.92 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 76.2 104.14 90)
@@ -2939,7 +2989,7 @@
 				)
 			)
 		 (hide yes))
-		(property "MPN" "Generik OPEN; B3F-1000 hanya acuan drawing"
+		(property "MPN" "B3F-1000"
 			(at 76.2 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2951,7 +3001,7 @@
 				(justify left)
 			)
 		)
-		(property "Status" "PROVISIONAL generic part; reference geometry selected"
+		(property "Status" "FROZEN layout baseline; not production release"
 			(at 76.2 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2978,14 +3028,24 @@
 			)
 		)
 	
-(property "Supplier_URL" "https://shopee.co.id/product/7849796/24862806415" (at 76.2 104.14 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Supplier_URL" "https://jlcpcb.com/partdetail/OmronElectronics-B3F1000/C93157" (at 76.2 104.14 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Package" "THT tactile NO 6x6mm H4.3mm; holes6.5x4.5mm" (at 76.2 104.14 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Package" "Omron B3F-1000 THT tactile NO 6x6mm H4.3mm; terminal centers6.5x4.5mm" (at 76.2 104.14 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Procurement_Status" "PROVISIONAL - listing/candidate only; exact MPN and domestic stock not confirmed" (at 76.2 104.14 90) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Procurement_Status" "FROZEN MPN/catalog identity; stock not reserved; order review required" (at 76.2 104.14 90) (effects (font (size 1.27 1.27)) (hide yes)))
 
-(property "Selection_Note" "Generik Aladin Shop varian4.3mm. Omron B3F1000 hanya referensi drawing, BUKAN wajib membeli Omron. Dua pasang kaki satu node; footprint pad1/2. SW3 start/stop momentary, bukan saklar power." (at 76.2 104.14 90) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+(property "Selection_Note" "Exact Omron B3F-1000 untuk PCBA menggantikan generic procurement; geometri/nilai/koneksi tetap. SW3 momentary START/STOP, bukan power latch." (at 76.2 104.14 90) (effects (font (size 1.27 1.27)) (hide yes)))
+
+		(property "Manufacturer" "Omron" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "LCSC Part #" "C93157" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Supplier" "JLCPCB" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Assembly" "JLCPCB Standard planned; process review pending" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	
+		(property "Footprint_Status" "Layout baseline reviewed; final PCB DRC/DFM and assembly review required" (at 76.2 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 165.1 121.92 0)

@@ -1,0 +1,19 @@
+(version 1)
+# WBV routing baseline: FR4 2 layers, 1oz, green mask, ENIG PROVISIONAL.
+# JLCPCB capabilities reviewed 2026-10-07; no manufacturing release implied.
+(rule "WBV standard through vias only"
+  (constraint disallow micro_via blind_via buried_via))
+(rule "WBV signal track minimum"
+  (constraint track_width (min 0.20mm) (opt 0.25mm)))
+(rule "WBV plated via annulus"
+  (condition "A.Type == 'Via'")
+  (constraint annular_width (min 0.15mm)))
+(rule "WBV through-hole pad annulus"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+  (constraint annular_width (min 0.20mm)))
+(rule "WBV ground plane clearance"
+  (condition "A.Type == 'Zone' || B.Type == 'Zone'")
+  (constraint clearance (min 0.25mm)))
+(rule "WBV thermal relief"
+  (constraint thermal_relief_gap (min 0.25mm))
+  (constraint thermal_spoke_width (opt 0.30mm)))
